@@ -1,0 +1,30 @@
+body {
+  justify-content: center;
+  margin: auto;
+  padding: 0;
+}
+
+#titleDiv,
+#outputDiv {
+  text-align: center;
+}
+
+#buttonDiv {
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+
+#decreaseButtonContainer,
+#resetButtonContainer,
+#increaseButtonContainer {
+  margin: auto;
+}
+
+#decreaseButton,
+#resetButton,
+#increaseButton {
+  padding: 10px 15px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
