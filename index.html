@@ -11,19 +11,21 @@
       <h2>Counter</h2>
     </div>
 
-    <div id="outputDiv">Test Text</div>
+    <div id="outputDiv">
+      <h4 id="counterOutput"></h4>
+    </div>
 
     <div id="buttonDiv">
       <div id="decreaseButtonContainer">
-        <button id="decreaseButton">-</button>
+        <button id="decreaseButton" onclick="decrease()">-</button>
       </div>
 
       <div id="resetButtonContainer">
-        <button id="resetButton">Reset</button>
+        <button id="resetButton" onclick="reset()">Reset</button>
       </div>
 
       <div id="increaseButtonContainer">
-        <button id="increaseButton">+</button>
+        <button id="increaseButton" onclick="increase()">+</button>
       </div>
     </div>
     <script src="script.js"></script>
